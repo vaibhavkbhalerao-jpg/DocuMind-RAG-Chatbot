@@ -1,4 +1,4 @@
-# Local-document-rag-chatbot
+# DocuMind-rag-chatbot
 Local RAG chatbot using Mistral GGUF, ChromaDB, LangChain and Streamlit for querying PDF and DOCX documents without external APIs.
 # Local Document RAG Chatbot
 
