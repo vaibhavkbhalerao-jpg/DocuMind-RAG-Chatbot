@@ -1,0 +1,24 @@
+# LLM inference (CPU-compatible)
+llama-cpp-python==0.3.25
+
+# RAG / document pipeline
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-chroma==0.1.4
+
+# Vector database
+chromadb==0.5.3
+
+# Embeddings model (small, ~90MB, no GPU needed)
+sentence-transformers==3.0.1
+
+# Document loaders
+pypdf==4.3.1
+python-docx==1.1.2
+
+# Web UI
+streamlit==1.37.0
+
+# Utilities
+python-dotenv==1.0.1
+huggingface-hub==0.24.6
