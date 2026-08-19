@@ -270,6 +270,17 @@ What are the approval steps described in the SOP?
 
 ---
 
+## Optional: Share the App Over the Internet
+- Start Streamlit:
+streamlit run app.py
+- In another terminal:
+python tunnel.py
+- An ngrok URL will be generated:
+https://xxxx.ngrok-free.app
+- Share this URL with other users to access the application remotely.
+
+---
+
 ## Future Improvements
 
 - Hybrid Search (BM25 + Vector Search)
@@ -282,6 +293,7 @@ What are the approval steps described in the SOP?
 - Reranking models
 
 ---
+
 
 ## Security
 
@@ -296,3 +308,5 @@ No document data is sent to external APIs unless users modify the implementation
 MIT License
 
 Feel free to use, modify, and distribute.
+
+
