@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+
+# Environment variables
+.env
+
+# Vector DB
+chroma_db/
+
+# Models
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Windows
+Thumbs.db
+
+# Mac
+.DS_Store
